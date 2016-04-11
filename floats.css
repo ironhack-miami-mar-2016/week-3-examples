@@ -1,0 +1,14 @@
+.float-wrapper {
+  background-color: green;
+}
+
+.float-wrapper img {
+  float: left;
+}
+
+.after-floats {
+  background: black;
+  color: white;
+  padding: 20px;
+  font-size: 50px;
+}
