@@ -1,0 +1,16 @@
+<h1>My awesome page</h1>
+
+<h2>List of posts</h2>
+
+<ul>
+  <% posts.forEach(function (the_post) { %>
+    <li>
+      <h3> <%= the_post.title %> </h3>
+      <p> <%= the_post.content %> </p>
+    </li>
+  <% }); %>
+</ul>
+
+<a href="/posts/new">
+  Create a new post
+</a>
