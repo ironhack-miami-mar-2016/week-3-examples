@@ -1,0 +1,51 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.bounty-card {
+  width: 500px;
+}
+
+.poster-img {
+  width: 50px;
+}
+
+.poster-text {
+  display: inline;
+}
+
+.content-row {
+  background-color: #fff;
+}
+
+.title-row {
+  border-bottom: 1px solid gray;
+}
+
+.bounty-img {
+  width: 45px;
+}
+
+.bounty-title {
+  display: inline;
+  position: relative;
+  top: 7px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.user-img {
+  width: 35px;
+}
+
+.btn-list {
+  display: inline;
+}
+
+.btn-list li {
+  padding-right: 0;
+}
+
+.btn-alert {
+  color: #f64f5a;
+}
